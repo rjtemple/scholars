@@ -2108,6 +2108,10 @@ input, select, textarea {
 			margin: 0 2em 2em 0;
 			top: 0.25em;
 		}
+		
+		p {
+			overflow: hidden; /* CHANGED OVERFLOW */
+		}
 
 		.image.right {
 			float: right;
@@ -2116,7 +2120,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 30%; /*CHANGED SIZE*/
+			max-width: 20%; /*CHANGED SIZE*/
 		}
 
 			.image.left img, .image.right img {
